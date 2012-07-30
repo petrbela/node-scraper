@@ -2,6 +2,10 @@
 
 A little module that makes scraping websites a little easier. Uses node.js and jQuery.
 
+## petrbela/node-scraper
+
+Added support for encoding conversion of the processed page using [iconv](https://github.com/bnoordhuis/node-iconv). Simply add `encoding` parameter to the request options.
+
 ## Installation
 
 Via [npm](http://github.com/isaacs/npm):
@@ -116,5 +120,5 @@ This argument is an object containing settings for the fetcher overall.
 
 ## Depends on
 * [tmpvar](https://github.com/tmpvar/)'s [jsdom](https://github.com/tmpvar/jsdom)
-* [mikeal](https://github.com/mikeal/)'s [request](https://github.com/mikeal/node-utils/tree/master/request)
+* [mikeal](https://github.com/mikeal/)'s [request](https://github.com/mikeal/request)
 * [jquery](https://github.com/jquery/jquery)
